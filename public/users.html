@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>users</title>
+	<style type="text/css">
+	
+	tr , td{
+		font-size: 1em;
+	}
+	</style>
+
+</head>
+<body>
+	<h1>DATOS:</h1>
+	<table border="1">
+		<tr><td><strong>NOMBRE USUARIO:</strong></td>
+		<td><strong>{{query}}</strong></td>
+		</tr>
+		<tr><td><strong>ID:</strong></td>
+		<td><strong>{{steamID}}</strong></td>
+		</tr>
+		<tr><td><strong>MENSAJE:</strong></td>
+		<td><strong>{{mensaje}}</strong></td>
+		</tr>
+	</table>
+
+	<p>si el usuario no existe genera su ID, pero si ya existe muestra su ID y su nombre con su mensaje de que ya exister</p>
+</body>
+</html>
